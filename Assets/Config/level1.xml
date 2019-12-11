@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Level>
+  <Object type="00" type2="02">
+    <Component name="body" x="0" y="0" a="0" vx="0" vy="0" va="0" cx="10" cy="10"  />
+    <Component name="sprite" path="BattleSpace64.png" path2="hBattleSpace.png" sx="0" sy="0" sw="64" sh="64" cx="10" cy="10" />
+    <Component name="clickable"/>
+  </Object>
+<Object type="01" type2="00">
+    <Component name="body" x="0" y="0" a="0" vx="0" vy="0" va="0" cx="10" cy="10"  />
+    <Component name="sprite" path="player64.png" path2="" sx="0" sy="0" sw="64" sh="64" cx="10" cy="10" />
+  <Component name="stats" lev="20" vat="30" end="30" str="30" dex="30" int="30" fai="30" agi="30" per="30" luc="30"/>
+  <Component name="equipment" w="1" a="1"/>
+    <Component name="clickable"/>
+  <Component name="input"/>
+  <Component name="movespace"/>
+  <Component name="ability"/>
+  </Object>
+  <Object type="02" type2="02">
+    <Component name="body" x="0" y="0" a="0" vx="0" vy="0" va="0" cx="10" cy="10"  />
+    <Component name="sprite" path="moveSpace64.png" path2="" sx="0" sy="0" sw="64" sh="64" cx="10" cy="10" />
+    <Component name="detectedenemy"/>
+    <Component name="clickable"/>
+  </Object>
+<Object type="03" type2="01">
+    <Component name="body" x="0" y="0" a="0" vx="0" vy="0" va="0" cx="10" cy="10"  />
+    <Component name="sprite" path="crab64.png" path2="" sx="0" sy="0" sw="64" sh="64" cx="10" cy="10" />
+  <Component name="stats" lev="3" vat="15" end="10" str="15" dex="3" int="3" fai="3" agi="10" per="5" luc="10"/>
+  <Component name="equipment" w="0" a="1"/>
+    <Component name="clickable"/>
+  <Component name="movespace"/>
+  <Component name="ability"/>
+  <Component name="enemyai"/>
+  </Object>
+  <Object type="04" type2="02">
+    <Component name="body" x="0" y="0" a="0" vx="0" vy="0" va="0" cx="10" cy="10"  />
+    <Component name="sprite" path="attackSpace64.png" path2="" sx="0" sy="0" sw="64" sh="64" cx="10" cy="10" />
+    <Component name="clickable"/>
+    <Component name="settarget"/>
+  </Object>
+</Level>
